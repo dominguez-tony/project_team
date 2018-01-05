@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>form</title>
+  </head>
+   <body>
+    <header>
+      <h1>FORM</h1>
+       <h2> la balise "form" permet de regrouper plusieurs entrées sous un seul nom, ce qui permettra de les traiter ensemble.
+  exemple:
+  <div 
+<pre></div>
+  <br>
+     form name="formulaire_1" method="post" action="traitement.php"
+  <br>
+     < p > Entrez votre nom : input type="text"name="nom"/ < p >
+  <br>
+     input type="submit"value="Envoyer 1"/
+  <br>
+     form
+  <br>
+     form name="formulaire_2"method="post"action="traitement.php"
+  <br>
+     < p > Entrez votre prénom : input type="text" name="prenom"/ < p >
+  <br>
+     input type="submit" value="Envoyer 2"
+  <br>
+     form
+</pre></div>
+  <p>Ici, si vous cliquez sur "envoyer 2", les données saisies dans "nom" ne seront pas récupérées car le bouton "envoyer 2" ne porte que sur le formulaire dans lequel il se trouve ( en l'occurence "formulaire_2").
+La balise "form" sert également à qpécifier via l'attribut "action" l'URI du programme destiné à traiter les données validées, le protocole utilisé lors de la transaction HTTP, soit "get", soit "post" via l'attribut "method" et e nfin via l'attribut "accept-charset" l'encodage de caractère qui doit être accepté par le serveur pour manipuler ce formulaire.
+L'attribut "enctype" permet de spécifier l'encodage pour un envoi de type POST.
+En particulier la valeur "enctype="multipart/form-data" permet l'envoi de fichiers au serveur, en utilisant un champ de type fichier ("input type="file">).
+Sans l'utilisation de cet encodage, un champ fichier n'envoie que le nom du fichier au serveur, sans contenu.
+  </p></h2>
+
+    </headers>
+   </body>
+</html>
