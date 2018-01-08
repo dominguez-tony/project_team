@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Rubik-Regular";
+    src: url("../Rubik/Rubik-Regular.ttf") format("truetype");
+    scr: url("../Rubik/Rubik-Black.ttf") format("truetype"),
+         url("../Rubik/Rubik-Bold.ttf") format("truetype"),
+         url("../Rubik/Rubik-Bolditalic.ttf") format("truetype"),
+         url("../Rubik/Rubik-Italic.ttf") format("truetype"),
+         url("../Rubik/Rubik-Light.ttf") format("truetype"),
+         url("../Rubik/Rubik-LightItalic.ttf") format("truetype"),
+         url("../Rubik/Rubik-Medium.ttf") format("truetype"),
+         url("../Rubik/Rubik-MediumItalic.ttf") format("truetype"),
+}   
+
+body
+{
+    background-image: url("../image/hypnotize.png");
+    font-family: Rubik-Regular;
+}
+h1
+{
+    color: blue;
+}
+h3
+{
+    color: red
+}
+h2
+{
+    color: greenyellow
+}
